@@ -3,7 +3,7 @@ BloxFruit API
 
 ```javascript
 const jsonLink =
-        "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI.json";
+        "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI/fruit.html";
     
       function loadJSON(url, callback) {
         var xhr = new XMLHttpRequest();
@@ -37,4 +37,4 @@ const jsonLink =
 ```
 
 ### Fruit
-[ApiLink](https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI.json)
+[ApiLink](https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI/fruit.html)
