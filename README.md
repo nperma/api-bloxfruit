@@ -2,38 +2,33 @@
 BloxFruit API
 
 ```javascript
-const jsonLink =
-        "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI/fruit.html";
-    
-      function loadJSON(url, callback) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", url, true);
-        xhr.onreadystatechange = function () {
-          if (xhr.readyState == 4 && xhr.status == 200) {
-            callback(JSON.parse(xhr.responseText));
-          }
-        };
-        xhr.send();
-      }
+const jsonLink = "https://bloxfruit-api.soappanel.repl.co";
 
-      function random(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-      }
+function loadJSON(url, callback) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", url, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      callback(JSON.parse(xhr.responseText));
+    }
+  };
+  xhr.send();
+}
 
-      /**
-      * @property {buah} fruit
-      * @property {img} image
-      * @property {harga} price
-      */
+function random(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
 
-      function populateBuah(data) {
-        var buah = random(data);
-        console.log(buah.buah) //fruitname
-        console.log(buah.img) //image url
-        console.log(buah.harga) //price
-      }
+function displayBuahInfo(buah) {
+  document.getElementById("fruit-name").textContent = `Fruit Name: ${buah.buah}`;
+  document.getElementById("fruit-image").textContent = `Fruit Image: ${buah.img}`;
+  document.getElementById("fruit-price").textContent = `Fruit Price: ${buah.harga}`;
+}
 
-      loadJSON(jsonLink, populateBuah);
+loadJSON(jsonLink, function (data) {
+  var buah = random(data);
+  displayBuahInfo(buah);
+});
 ```
 
 ### Fruit
