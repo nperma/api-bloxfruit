@@ -20,9 +20,9 @@ function random(arr) {
 }
 
 function displayBuahInfo(buah) {
-  document.getElementById("fruit-name").textContent = `Fruit Name: ${buah.buah}`;
-  document.getElementById("fruit-image").textContent = `Fruit Image: ${buah.img}`;
-  document.getElementById("fruit-price").textContent = `Fruit Price: ${buah.harga}`;
+  console.log("Fruit Name: " + buah.buah);
+  console.log("Fruit Image: " + buah.img);
+  console.log("Fruit Price: " + buah.harga);
 }
 
 loadJSON(jsonLink, function (data) {
