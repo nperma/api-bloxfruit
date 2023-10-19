@@ -28,9 +28,9 @@ const jsonLink =
 
       function populateBuah(data) {
         var buah = random(data);
-        //document.getElementById("buah-img").src = buah.img;
-        //document.getElementById("harga").textContent = buah.harga;
-        //document.title = "Buah - " + buah.buah;
+        console.log(buah.buah) //fruitname
+        console.log(buah.img) //image url
+        console.log(buah.harga) //price
       }
 
       loadJSON(jsonLink, populateBuah);
