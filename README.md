@@ -32,4 +32,4 @@ loadJSON(jsonLink, function (data) {
 ```
 
 ### Fruit
-[ApiLink](https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI/fruit.html)
+[ApiLink](https://bloxfruit-api.soappanel.repl.co)
