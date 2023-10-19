@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buah - (json.buah)</title>
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="buah-container">
+      <h1>Buah</h1>
+      <div id="image-container">
+        <img id="buah-img" src="" alt="Gambar Buah" />
+      </div>
+      <p>Harga: <span id="harga"></span></p>
+    </div>
+
+    <script>
+      const jsonLink =
+        "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI.json";
+
+      function loadJSON(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url, true);
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState == 4 && xhr.status == 200) {
+            callback(JSON.parse(xhr.responseText));
+          }
+        };
+        xhr.send();
+      }
+
+      function random(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
+      }
+      
+      function populateBuah(data) {
+        var buah = random(data);
+        document.getElementById("buah-img").src = buah.img;
+        document.getElementById("harga").textContent = buah.harga;
+        document.title = "Buah - " + buah.buah;
+      }
+
+      loadJSON(jsonLink, populateBuah);
+    </script>
+  </body>
+</html>
