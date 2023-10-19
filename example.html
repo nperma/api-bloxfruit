@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <div id="api-text"></div>
+    <div id="api-json"></div>
     <script>
       const jsonLink =
         "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI/bloxfruitAPI.json";
@@ -22,8 +22,15 @@
       }
 
       function populateBuah(data) {
-        var buah = random(data);
-      }
+    var buah = random(data);
+    var jsonData = {
+        "buah": buah.buah,
+        "harga": buah.harga,
+        "img": buah.img
+    };
+    document.getElementById("api-json").textContent = JSON.stringify(jsonData, null, 2);
+}
+
 
       loadJSON(jsonLink, populateBuah);
     </script>
