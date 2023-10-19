@@ -19,12 +19,18 @@ const jsonLink =
       function random(arr) {
         return arr[Math.floor(Math.random() * arr.length)];
       }
-      
+
+      /**
+      * @property {buah} fruit
+      * @property {img} image
+      * @property {harga} price
+      */
+
       function populateBuah(data) {
         var buah = random(data);
-        document.getElementById("buah-img").src = buah.img;
-        document.getElementById("harga").textContent = buah.harga;
-        document.title = "Buah - " + buah.buah;
+        //document.getElementById("buah-img").src = buah.img;
+        //document.getElementById("harga").textContent = buah.harga;
+        //document.title = "Buah - " + buah.buah;
       }
 
       loadJSON(jsonLink, populateBuah);
