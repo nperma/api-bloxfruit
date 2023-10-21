@@ -1,7 +1,8 @@
 # Example
 
 ### Randomly
-```javascript
+
+````javascript
       const jsonLink =
         "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI.json";
 
@@ -19,13 +20,20 @@
       function random(arr) {
         return arr[Math.floor(Math.random() * arr.length)];
       }
-      
+
       function populateBuah(data) {
         var buah = random(data);
-        document.getElementById("buah-img").src = buah.img;
-        document.getElementById("harga").textContent = buah.harga;
-        document.title = "Buah - " + buah.buah;
+        /**
+         * @property {buah.img};
+         * @property {buah.harga};
+         * @property {buah.buah};
+         **/
       }
 
       loadJSON(jsonLink, populateBuah);
-      ```
+````
+
+### Store
+````javascript
+
+````
