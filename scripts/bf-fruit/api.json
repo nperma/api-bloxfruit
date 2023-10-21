@@ -1,0 +1,56 @@
+[
+  {
+    "buah": "kilo",
+    "img": "https://blox-fruits.fandom.com/wiki/Kilo?file=KiloIcon.png",
+    "number": "1",
+    "harga": "3000"
+  },
+  {
+    "buah": "spin",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/38/SpinIcon.png",
+    "number": "2",
+    "harga": "5000"
+  },
+  {
+    "buah": "spring",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/1e/SpringIcon.png",
+    "number": "3",
+    "harga": "6500"
+  },
+  {
+    "buah": "spike",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/SpikeIcon.png",
+    "number": "4",
+    "harga": "10000"
+  },
+  {
+    "buah": "smoke",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/dc/SmokeIcon.png",
+    "number": "5",
+    "harga": "14500"
+  },
+  {
+    "buah": "bomb",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/48/BombIcon.png",
+    "number": "6",
+    "harga": "16500"
+  },
+  {
+    "buah": "barrier",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8d/BarrierNew.png",
+    "number": "7",
+    "harga": "17000"
+  },
+  {
+    "buah": "chop",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/63/ChopIcon.png",
+    "number": "8",
+    "harga": "22500"
+  },
+  {
+    "buah": "light",
+    "img": "https://blox-fruits.fandom.com/wiki/Light?file=LightIcon.png",
+    "number": "9",
+    "harga": "500000"
+  }
+]
