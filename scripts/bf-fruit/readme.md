@@ -4,7 +4,7 @@
 
 ```javascript
 const jsonLink =
-  "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/bloxfruitAPI.json";
+  "https://raw.githubusercontent.com/nperma/api-bloxfruit/main/scripts/bf-fruit/api.json";
 
 function loadJSON(url, callback) {
   var xhr = new XMLHttpRequest();
@@ -28,7 +28,7 @@ function populateBuah(data) {
    * @property {buah.harga};
    * @property {buah.buah};
    **/
-   //console.log(buah.buah)
+  //console.log(buah.buah)
 }
 
 loadJSON(jsonLink, populateBuah);
