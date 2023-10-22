@@ -49,8 +49,14 @@
   },
   {
     "buah": "light",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/65/LightIcon.png/revision/latest/scale-to-width/360?cb=20220228195915",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/65/LightIcon.png",
     "number": "9",
-    "harga": "500000"
+    "harga": "128500"
+  },
+  {
+    "buah": "ice",
+    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/42/IceIcon.png",
+    "number": "10",
+    "harga": "330000"
   }
 ]
