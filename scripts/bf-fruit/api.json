@@ -1,68 +1,212 @@
 [
   {
-    "buah": "kilo",
-    "img": "https://bloxfruits.us/cdn/shop/files/Kilo-Fruit-BloxFruits.US-1689826726417.webp?v=1689826727",
-    "number": "1",
-    "harga": "3000"
+    "img": "https://bloxfruits.us/assets/imgs/prods/leopard.png",
+    "buah": "Leopard",
+    "harga": "237.650rp",
+    "number": 0
   },
   {
-    "buah": "spin",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/38/SpinIcon.png",
-    "number": "2",
-    "harga": "5000"
+    "img": "https://bloxfruits.us/assets/imgs/prods/dragon.png",
+    "buah": "Dragon",
+    "harga": "215.502rp",
+    "number": 1
   },
   {
-    "buah": "spring",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/1e/SpringIcon.png",
-    "number": "3",
-    "harga": "6500"
+    "img": "https://bloxfruits.us/assets/imgs/prods/control.png",
+    "buah": "Control",
+    "harga": "195.902rp",
+    "number": 2
   },
   {
-    "buah": "spike",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/SpikeIcon.png",
-    "number": "4",
-    "harga": "10000"
+    "img": "https://bloxfruits.us/assets/imgs/prods/venom.png",
+    "buah": "Venom",
+    "harga": "191.002rp",
+    "number": 3
   },
   {
-    "buah": "smoke",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/dc/SmokeIcon.png",
-    "number": "5",
-    "harga": "14500"
+    "img": "https://bloxfruits.us/assets/imgs/prods/shadow.png",
+    "buah": "Shadow",
+    "harga": "186.102rp",
+    "number": 4
   },
   {
-    "buah": "bomb",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/48/BombIcon.png",
-    "number": "6",
-    "harga": "16500"
+    "img": "https://bloxfruits.us/assets/imgs/prods/dough.png",
+    "buah": "Dough",
+    "harga": "200.802rp",
+    "number": 5
   },
   {
-    "buah": "barrier",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8d/BarrierNew.png",
-    "number": "7",
-    "harga": "17000"
+    "img": "https://bloxfruits.us/assets/imgs/prods/gravity.png",
+    "buah": "Gravity",
+    "harga": "171.402rp",
+    "number": 6
   },
   {
-    "buah": "chop",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/63/ChopIcon.png",
-    "number": "8",
-    "harga": "22500"
+    "img": "https://bloxfruits.us/assets/imgs/prods/blizzard.png",
+    "buah": "Blizzard",
+    "harga": "166.502rp",
+    "number": 7
   },
   {
-    "buah": "light",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/65/LightIcon.png",
-    "number": "9",
-    "harga": "128500"
+    "img": "https://bloxfruits.us/assets/imgs/prods/pain.png",
+    "buah": "Pain",
+    "harga": "174.342rp",
+    "number": 8
   },
   {
-    "buah": "ice",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/42/IceIcon.png",
-    "number": "10",
-    "harga": "330000"
+    "img": "https://bloxfruits.us/assets/imgs/prods/rumble.png",
+    "buah": "Rumble",
+    "harga": "152.782rp",
+    "number": 9
   },
   {
-    "buah": "fire",
-    "img": "https://static.wikia.nocookie.net/roblox-blox-piece/images/b/bf/FlameIcon.png",
-    "number": "11",
-    "harga": "345800"
+    "img": "https://bloxfruits.us/assets/imgs/prods/portal.png",
+    "buah": "Portal",
+    "harga": "161.602rp",
+    "number": 10
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/phoenix.png",
+    "buah": "Phoenix",
+    "harga": "146.902rp",
+    "number": 11
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/spider.png",
+    "buah": "Spider",
+    "harga": "137.102rp",
+    "number": 12
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/sound.png",
+    "buah": "Sound",
+    "harga": "161.602rp",
+    "number": 13
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/love.png",
+    "buah": "Love",
+    "harga": "132.202rp",
+    "number": 14
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/buddha.png",
+    "buah": "Buddha",
+    "harga": "137.102rp",
+    "number": 15
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/quake.png",
+    "buah": "Quake",
+    "harga": "114.562rp",
+    "number": 16
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/magma.png",
+    "buah": "Magma",
+    "harga": "107.702rp",
+    "number": 17
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/barrier.png",
+    "buah": "Barrier",
+    "harga": "102.802rp",
+    "number": 18
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/rubber.png",
+    "buah": "Rubber",
+    "harga": "95.942rp",
+    "number": 19
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/light.png",
+    "buah": "Light",
+    "harga": "97.902rp",
+    "number": 20
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/diamond.png",
+    "buah": "Diamond",
+    "harga": "95.942rp",
+    "number": 21
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/revive.png",
+    "buah": "Revive",
+    "harga": "77.322rp",
+    "number": 22
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/dark.png",
+    "buah": "Dark",
+    "harga": "93.982rp",
+    "number": 23
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/sand.png",
+    "buah": "Sand",
+    "harga": "70.952rp",
+    "number": 24
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/ice.png",
+    "buah": "Ice",
+    "harga": "63.602rp",
+    "number": 25
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/falcon.png",
+    "buah": "Falcon",
+    "harga": "51.450rp",
+    "number": 26
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/flame.png",
+    "buah": "Flame",
+    "harga": "61.250rp",
+    "number": 27
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/spike.png",
+    "buah": "Spike",
+    "harga": "30.086rp",
+    "number": 28
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/smoke.png",
+    "buah": "Smoke",
+    "harga": "19.600rp",
+    "number": 29
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/bomb.png",
+    "buah": "Bomb",
+    "harga": "15.778rp",
+    "number": 30
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/spring.png",
+    "buah": "Spring",
+    "harga": "14.210rp",
+    "number": 31
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/chop.png",
+    "buah": "Chop",
+    "harga": "9.800rp",
+    "number": 32
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/spin.png",
+    "buah": "Spin",
+    "harga": "9.800rp",
+    "number": 33
+  },
+  {
+    "img": "https://bloxfruits.us/assets/imgs/prods/rocket.png",
+    "buah": "Rocket",
+    "harga": "9.800rp",
+    "number": 34
   }
 ]
